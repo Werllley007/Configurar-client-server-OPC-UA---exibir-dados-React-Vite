@@ -55,6 +55,16 @@ node -v
 npm -v
 ```
 ### 2. Crie seu projeto React usando Vite
+
+O Vite se tornou a maneira mais rápida e moderna de iniciar um projeto React. Ele oferece uma experiência de desenvolvimento super-rápida, utilizando a capacidade nativa de módulos ES do navegador.
+
+Abra seu terminal e execute o seguinte comando:
+
+```bash
+npm create vite@latest
+```
+Ou pode usar o comando abaixo para inserir o nome do projeto e o tipo de template usado que no caso é o REACT
+
 ```bash
 npm create vite@latest meu-projeto-opcua-web -- --template react
 ```
@@ -71,18 +81,6 @@ npm install
 npm run dev
 ```
 
-## Vite
-
-O Vite se tornou a maneira mais rápida e moderna de iniciar um projeto React. Ele oferece uma experiência de desenvolvimento super-rápida, utilizando a capacidade nativa de módulos ES do navegador.
-
-### Passo 1: Criação Rápida do Projeto React com Vite
-Para começar, você precisa ter o Node.js (versão 18+ ou 20+) instalado no seu computador.
-
-Abra seu terminal e execute o seguinte comando:
-
-```bash
-npm create vite@latest
-```
 
 
 
